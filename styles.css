@@ -3,7 +3,7 @@
   --bg-2:#0f2214;
   --surface:#0f2214;
   --surface-2:#132818;
-  --primary:#FF70BF;
+ --primary:#FF70BF;
   --primary-2:#D552A3;
   --primary-3:#831C91;
   --gold:#c8a84b;
@@ -14,7 +14,7 @@
   --border:#c8a84b20;
   --glow:0 0 30px rgba(200,168,75,0.35);
   --gold-glow:0 0 30px rgba(200,168,75,0.35);
-  --grad:linear-gradient(135deg,#FF70BF 0%,#4fb46f 50%,#c8a84b 100%);
+ --grad:linear-gradient(135deg,#FF70BF 0%,#D552A3 50%,#c8a84b 100%);
   --grad-2:linear-gradient(135deg,#FF70BF,#c8a84b);
   --font-h:'Plus Jakarta Sans',system-ui,sans-serif;
   --font-b:'Inter',system-ui,sans-serif;
