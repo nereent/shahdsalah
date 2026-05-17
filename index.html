@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahd.dev</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+      <div class="logo">Shahd.dev</div>
+      
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section id="home">
+    <div class="mesh-bg"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-eyebrow">
+            <span>Available for new opportunities</span>
+          </div>
+          <h1 class="hero-name">Hi, I'm <span>Shahd Salah</span></h1>
+          
+          <div class="typing-wrap">
+            <span id="typing"></span>
+          </div>
+
+          <p class="hero-bio">
+            Mobile App Developer and Flutter Developer with experience building scalable, responsive, and user-friendly mobile applications for Android and iOS. Passionate about clean architecture, state management, and delivering exceptional user experiences.
+          </p>
+
+          <div class="hero-icons">
+            <a href="https://github.com/sh3455" target="_blank">🐙</a>
+            <a href="https://linkedin.com/in/shahd-salah" target="_blank">🔗</a>
+          </div>
+
+          <div class="cta-row">
+            <a href="#projects" class="btn btn-primary">View Projects →</a>
+            <a href="cv/cv.pdf" class="btn btn-ghost" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="avatar-wrap">
+          <div class="avatar-ring"></div>
+          <div class="avatar-inner">
+            <img src="image/me.jpeg" alt="Shahd Salah" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+            <div class="avatar-initials" style="display:none; align-items:center;justify-content:center;width:100%;height:100%;">SS</div>
+          </div>
+          
+          <div class="tech-badge b1">Flutter</div>
+          <div class="tech-badge b2">Dart</div>
+          <div class="tech-badge b3">Firebase</div>
+
+          <div class="open-work">
+            <span>Open to Work</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-num">1+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">8+</div>
+          <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Training Programs</div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        Scroll ↓
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical <span>Skills</span></h2>
+      <p class="section-sub">Languages, frameworks, and tools I work with daily.</p>
+      
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <p class="section-sub">A selection of work spanning health apps, news platforms, and recipe applications.</p>
+      
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="flutter">Flutter</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Work <span>Experience</span></h2>
+      <p class="section-sub">My professional journey as a Mobile App Developer.</p>
+      
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <section id="certs">
+    <div class="container">
+      <!-- <h2 class="section-title">Internships &amp; <span>Education</span></h2>
+       <p class="section-sub">Training programs and academic background.</p> -->
+      
+      <div class="certs-grid" id="certsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get in <span>Touch</span></h2>
+      <p class="section-sub">Have a project in mind or just want to say hi? My inbox is open.</p>
+      
+      <div class="contact-grid">
+        <div class="contact-card card">
+          <div class="ci">✉️</div>
+          <div>
+            <div class="label">Email</div>
+            <div class="val">shahdsalah573@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-card card">
+          <div class="ci">📱</div>
+          <div>
+            <div class="label">Phone</div>
+            <div class="val">+20 102 981 8072</div>
+          </div>
+        </div>
+        <div class="contact-card card">
+          <div class="ci">🐙</div>
+          <div>
+            <div class="label">GitHub</div>
+            <div class="val">github.com/sh3455</div>
+          </div>
+        </div>
+        <div class="contact-card card">
+          <div class="ci">🔗</div>
+          <div>
+            <div class="label">LinkedIn</div>
+            <div class="val">linkedin.com/in/shahd-salah</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-box">
+        <h3>Let's Build Together</h3>
+        <p>I'm currently open to Flutter &amp; Mobile development opportunities — full-time, contract, or freelance.</p>
+        <a href="mailto:shahdsalah573@gmail.com" class="btn btn-primary">Say Hello →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Built with ❤️ by Shahd Salah Abdelmaqsoud · 2026
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
